@@ -1,0 +1,73 @@
+.navbar {
+    background: url(https://123truyen.vip/assets/css/img/body_bg.gif) #6f6d72;
+    color: #fff;
+}
+
+.navbar-brand {
+    display: block;
+    width: 120px;
+    height: 60px;
+    background: url(https://123truyen.vip/assets/css/img/logo.png) no-repeat 0 5px;
+    background-size: auto 60px;
+    text-indent: -9999px;
+    white-space: nowrap;
+    outline: 0;
+    margin: 0;
+}
+
+.lines {
+    position: absolute;
+    left: 15px;
+    margin: auto;
+    display: block;
+    top: 0;
+    bottom: 0;
+    height: 15px;
+    width: 18px;
+}
+
+.lines .line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 6px;
+    float: left;
+}
+
+.dropdown-toggle {
+    height: 32px;
+    padding: 6px 10px 6px 45px;
+    border: 1px solid transparent;
+    position: relative;
+    color: #fff;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #fff;
+}
+
+
+
+::selection {
+    background: #4e4e4e;
+    text-shadow: none;
+    color: #fff;
+}
+
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+

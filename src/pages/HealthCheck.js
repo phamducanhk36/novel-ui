@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from "../logo.svg";
 
 class HealthCheck extends React.Component {
     constructor(props) {
@@ -12,7 +13,7 @@ class HealthCheck extends React.Component {
     componentDidMount() {
 
         const getHealth = async () => {
-            const result = await fetch(process.env.REACT_APP_NOVEL_SERVER_HOST + "/health")
+            return await fetch(process.env.REACT_APP_NOVEL_SERVER_HOST + "/health")
                 .then(response => response.json())
                 .then(json => {
                     this.setState({
@@ -21,7 +22,6 @@ class HealthCheck extends React.Component {
                     });
                     console.log(json);
                 });
-            return result;
         }
 
         this.timerID = setInterval(
@@ -40,13 +40,29 @@ class HealthCheck extends React.Component {
         if (status === 'OK') {
             clearInterval(this.timerID);
         }
-        if (!isLoaded) {
-            return <div>Loading...</div>;
-        } else {
-            return (
-                <p>{status}</p>
-            );
+        let health = <div>Loading...</div>;
+        if (isLoaded) {
+            health = <p>{status}</p>
         }
+        return (
+            <div className="App">
+                <header className="App-header">
+                    {health}
+                    <img src={logo} className="App-logo" alt="logo"/>
+                    <p>
+                        Edit <code>src/App.js</code> and save to reload.
+                    </p>
+                    <a
+                        className="App-link"
+                        href="https://reactjs.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Learn React {this.props.text}
+                    </a>
+                </header>
+            </div>
+        )
     }
 }
 

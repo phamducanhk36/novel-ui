@@ -1,0 +1,19 @@
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    color: #fff !important;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list{
+    background: url(https://123truyen.vip/assets/css/img/header-bg1.jpg) #6f6d72;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+    color: #fff !important;
+}
+
+.MuiMenuItemCustom{
+    width: fit-content;
+    padding: 7px 10px 5px 10px !important;
+}
+
+.MuiMenuItemCustom:hover{
+    background: #6f6d72 !important;
+}
+
