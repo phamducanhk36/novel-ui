@@ -47,16 +47,17 @@ export default function MuiSubMenu(props) {
                             return menuItem(sub.name);
                         })}
                     </div>
-                    <div className="col-md-4">
+                    {props.data.submenus.length > 10 && <div className="col-md-4">
                         {props.data.submenus.filter((m, i) => i >= 10 && i < 20).map((sub, index) => {
                             return menuItem(sub.name);
                         })}
-                    </div>
-                    <div className="col-md-4">
+                    </div>}
+                    {props.data.submenus.length > 10 && <div className="col-md-4">
                         {props.data.submenus.filter((m, i) => i >= 20 && i < 30).map((sub, index) => {
                             return menuItem(sub.name);
                         })}
-                    </div>
+                    </div>}
+
                 </div>
             </Menu>
         </div>

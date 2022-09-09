@@ -21,7 +21,6 @@ class Home extends React.Component {
         return (
             <div>
                 <Header/>
-                {/*<MuiSubMenu/>*/}
                 <Container/>
             </div>
         )
