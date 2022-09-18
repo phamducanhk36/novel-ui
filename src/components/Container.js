@@ -23,7 +23,7 @@ const Container = () => {
                 }}
             >
                 {novels.map((room) => (
-                    <Card key={room._id}>
+                    <Card key={room.title}>
                         <ImageListItem sx={{ height: '100% !important' }}>
                             <ImageListItemBar
                                 sx={{

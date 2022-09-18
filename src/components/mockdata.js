@@ -14,67 +14,67 @@ export const menudata=[{
     name: 'the loai',
     submenus: [
         {
-            name: 'Truyen moi',
+            name: 'Shounen',
             route: '/truyen-moi'
         },
         {
-            name: 'Truyen cu1',
+            name: 'Harem',
             route: '/truyen-cu'
         },
         {
-            name: 'Truyen cu2',
+            name: 'Comedy',
             route: '/truyen-cu'
         },
         {
-            name: 'Truyen cu3',
+            name: 'Martial Arts',
             route: '/truyen-cu'
         },
         {
-            name: 'Truyen cu4',
+            name: 'Mystery',
             route: '/truyen-cu'
         },
         {
-            name: 'Truyen cu5',
+            name: 'Shoujo',
             route: '/truyen-cu'
         },
         {
-            name: 'Truyen cu6',
+            name: 'Romance',
             route: '/truyen-cu'
         },
         {
-            name: 'Truyen cu7',
+            name: 'Sci-fi',
             route: '/truyen-cu'
         },
         {
-            name: 'Truyen cu8',
+            name: 'Gender Bendy',
             route: '/truyen-cu'
         },
         {
-            name: 'Truyen cu9',
+            name: 'Mature',
             route: '/truyen-cu'
         },
         {
-            name: 'Truyen cu0',
+            name: 'Fantasy',
             route: '/truyen-cu'
         },
         {
-            name: 'Truyen cu11',
+            name: 'Horror',
             route: '/truyen-cu'
         },
         {
-            name: 'Truyen cu12',
+            name: 'Drama',
             route: '/truyen-cu'
         },
         {
-            name: 'Truyen cu1',
+            name: 'Tragedy',
             route: '/truyen-cu'
         },
         {
-            name: 'Truyen cu2',
+            name: 'Supernatural',
             route: '/truyen-cu'
         },
         {
-            name: 'Truyen cu3',
+            name: 'Ecchi',
             route: '/truyen-cu'
         },
         {
@@ -123,7 +123,7 @@ export const itemDatamock = [
     },
     {
         img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-        title: 'Burger',
+        title: 'Burger dfgdsgasd fgvxcgd werqwersadf',
         author: '@rollelflex_graphy726',
     },
     {

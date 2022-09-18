@@ -1,0 +1,23 @@
+.navbar-breadcrumb {
+    background: rgb(234, 239, 242);
+    margin-bottom: 20px;
+}
+
+.breadcrumb-container {
+    height: 30px;
+    line-height: 30px;
+    color: #8D8D8D;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}

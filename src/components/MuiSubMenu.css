@@ -16,4 +16,10 @@
 .MuiMenuItemCustom:hover{
     background: #6f6d72 !important;
 }
+.MuiButton-root{
+    margin-right: 20px !important;
+}
+.opening{
+    background: url(https://123truyen.vip/assets/css/img/header-bg1.jpg) #6f6d72 !important;
+}
 

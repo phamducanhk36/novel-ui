@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "../components/Header";
 import MuiSubMenu from "../components/MuiSubMenu";
 import Container from "../components/Container";
+import Breadcrumb from "../components/Breadcrumb";
 
 class Home extends React.Component {
     constructor(props) {
@@ -21,6 +22,7 @@ class Home extends React.Component {
         return (
             <div>
                 <Header/>
+                <Breadcrumb/>
                 <Container/>
             </div>
         )
